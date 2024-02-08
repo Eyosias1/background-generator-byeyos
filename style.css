@@ -63,6 +63,10 @@ h3 {
 
   h3 {
     font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   .button-gen {
@@ -71,6 +75,7 @@ h3 {
   .container {
     /* flex-wrap: wrap; */
     display: flex;
+    justify-content: center;
     justify-content: space-between;
     align-items: center;
     width: 100%;
