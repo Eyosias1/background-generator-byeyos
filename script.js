@@ -14,6 +14,7 @@ function setGradient() {
   + color1.value + ", "
   + color2.value + ")";
   css.textContent = body.style.background + ";";
+  css.classList.add("set-border");
 }
 
 function generateRandomColor() {
