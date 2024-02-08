@@ -48,8 +48,16 @@ h3 {
 }
 
 @media only screen and (max-width: 440px) {
-
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5em;
   }
 
@@ -59,7 +67,6 @@ h3 {
 
   .button-gen {
     font-size: 16px;
-    margin-bottom: 10px;
   }
   .container {
     /* flex-wrap: wrap; */
@@ -67,14 +74,16 @@ h3 {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 10px;
   }
 
   .container1 {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
-    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    height: 40vh;
     padding: 10px 0 10px 0;
   }
 }
