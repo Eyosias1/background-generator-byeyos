@@ -24,3 +24,25 @@ h3 {
   text-transform: none;
   letter-spacing: 0.01em;
 }
+
+.button-gen {
+  /* display: inline-block;
+  justify-content: center; */
+  padding: 10px 9px;
+  background-color: #0069ed;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform:capitalize;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items:center;
+}

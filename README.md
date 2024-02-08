@@ -4,6 +4,7 @@ This project showcases my JavaScript skills by creating a web page that allows u
 
 ## Features
 - **Color Selection**: Users can choose two colors using color input elements.
+- **Automatic Background Generation**: Added functionality to automatically generate random background colors in hexadecimal format.
 - **Dynamic Updates**: The background gradient and CSS code update in real-time as the user selects colors.
 - **Copy CSS Code**: Users can easily copy the CSS code for the generated gradient background.
 
