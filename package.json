@@ -1,0 +1,23 @@
+{
+  "name": "background_generator",
+  "version": "1.0.0",
+  "description": "This project showcases my JavaScript skills by creating a web page that allows users to generate a linear gradient background of their choice instantly. The user can select two colors using color input elements, and the page dynamically updates to display the generated gradient background along with the corresponding CSS code.",
+  "main": "script.js",
+  "scripts": {
+    "build" : "browserify script.js > bundle.js && live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eyosias1/background-generator-byeyos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eyosias1/background-generator-byeyos/issues"
+  },
+  "homepage": "https://github.com/Eyosias1/background-generator-byeyos#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
